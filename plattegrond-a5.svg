@@ -8,8 +8,8 @@
     <rect x="199" y="250" width="51" height="30" fill="#d4c9b0"/>
 
     <!-- PARKEERPLAATS -->
-    <circle cx="112" cy="13" r="11" fill="#3a6ab0" stroke="#1a3a80" stroke-width="1.5"/>
-    <text x="112" y="18" text-anchor="middle" font-size="13" fill="white" font-family="Arial" font-weight="bold">P</text>
+    <circle cx="112" cy="3" r="11" fill="#3a6ab0" stroke="#1a3a80" stroke-width="1.5"/>
+    <text x="112" y="8" text-anchor="middle" font-size="13" fill="white" font-family="Arial" font-weight="bold">P</text>
 
     <rect x="25" y="2" width="20" height="312" rx="2" fill="#d4c9b0"/>
 
