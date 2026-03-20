@@ -184,7 +184,7 @@
     <text x="332" y="238" text-anchor="middle" font-size="10" fill="white" font-family="Arial" opacity="0.9">(trainingsveld)</text>
 
     <!-- LEGENDA: zelfde breedte als Veld 4 (x=250, width=170) -->
-    <rect x="250" y="5" width="164" height="111" rx="5" fill="white" opacity="0.92" stroke="#ccc" stroke-width="1"/>
+    
     <text x="332" y="19" text-anchor="middle" font-size="10" fill="#222" font-family="Arial" font-weight="bold">Legenda</text>
 
     <!-- Linkerkolom: Hoofdingang + Nooduitgang -->
