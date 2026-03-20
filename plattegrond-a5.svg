@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="-16 -23 518 735" width="148mm" height="210mm" xmlns="http://www.w3.org/2000/svg">
-    <rect x="-16" y="-23" width="518" height="735" fill="#d4e8ca"/>
+<svg viewBox="-17 -23 493 700" width="148mm" height="210mm" xmlns="http://www.w3.org/2000/svg">
+    <rect x="-17" y="-23" width="493" height="700" fill="#d4e8ca"/>
     <!-- EEMWEG -->
     <rect x="5" y="18" width="28" height="547" fill="#cccccc"/>
     <text x="19" y="291" text-anchor="middle" font-size="9" fill="#555" font-family="Arial" font-weight="bold" transform="rotate(-90,19,291)">Eemweg</text>
