@@ -2,6 +2,9 @@
 <svg viewBox="-45 -23 520 735" width="297mm" height="420mm" xmlns="http://www.w3.org/2000/svg">
     <rect x="-45" y="-23" width="520" height="735" fill="#d4e8ca"/>
     <rect x="5" y="280" width="320" height="55" fill="#d4c9b0"/>
+    <!-- EEMWEG -->
+    <rect x="405" y="18" width="20" height="547" fill="#cccccc" opacity="0.9"/>
+    <text x="415" y="291" text-anchor="middle" font-size="9" fill="#555" font-family="Arial" font-weight="bold" transform="rotate(-90,415,291)">Eemweg</text>
     <!-- SMAL PAD tussen Veld 4&5 en Veld 2&3 -->
     <rect x="168" y="280" width="10" height="284" fill="#d4c9b0"/>
     <!-- HORIZONTAAL PAD rechtsonder Veld 1 t/m Veld 6 -->
