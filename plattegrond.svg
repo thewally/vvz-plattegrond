@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plattegrond Sportpark VVZ'49 – Soest</title>
-  <style>
-    body { margin:0; background:#f0ede8; display:flex; flex-direction:column; align-items:center; padding:24px; font-family:Arial,sans-serif; }
-    h1 { color:#1a5c1a; font-size:1.4rem; margin-bottom:4px; }
-    p.subtitle { color:#666; font-size:0.85rem; margin:0 0 20px; }
-    svg { max-width:100%; height:auto; filter:drop-shadow(0 4px 18px rgba(0,0,0,0.18)); }
-  </style>
-</head>
-<body>
-  <h1>Sportpark VVZ'49 – Soest</h1>
-  <p class="subtitle">Eemweg 2b, Soest</p>
-  <svg viewBox="-20 -23 470 735" width="470" height="735" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="-20 -23 470 735" width="470" height="735" xmlns="http://www.w3.org/2000/svg">
     <rect x="-20" y="-23" width="470" height="735" fill="#e8f0e3"/>
     <rect x="5" y="2" width="420" height="650" rx="4" fill="#d4e8ca" stroke="#a8c89a" stroke-width="1"/>
     <rect x="5" y="280" width="320" height="55" fill="#d4c9b0"/>
@@ -123,5 +108,3 @@
     <!-- Footer -->
     <text x="240" y="695" text-anchor="middle" font-size="9" fill="#3a6a3a" font-family="Arial" font-weight="bold" opacity="0.75">sv VVZ'49 Soest – Eemweg 2b – www.vvz49.nl</text>
   </svg>
-</body>
-</html>
