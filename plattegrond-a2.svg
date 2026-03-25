@@ -8,7 +8,7 @@
     <rect x="5" y="18" width="28" height="547" fill="#cccccc"/>
     <text x="19" y="291" text-anchor="middle" font-size="9" fill="#555" font-family="Arial" font-weight="bold" transform="rotate(-90,19,291)">Eemweg</text>
     <g transform="translate(28,0)">
-    <rect x="5" y="280" width="320" height="55" fill="#d4c9b0"/>
+    <rect x="5" y="280" width="245" height="55" fill="#d4c9b0"/>
     <!-- SMAL PAD tussen Veld 4&5 en Veld 2&3 -->
     <rect x="168" y="280" width="10" height="284" fill="#d4c9b0"/>
     <!-- HORIZONTAAL PAD rechtsonder Veld 1 t/m Veld 6 -->
@@ -21,8 +21,9 @@
     <rect x="25" y="2" width="20" height="312" rx="2" fill="#d4c9b0"/>
 
     <!-- PAD boven en rechts van Veld 1 (20px, zelfde kleur als linker pad) -->
-    <rect x="45" y="24" width="134" height="20" fill="#d4c9b0"/>
+    <rect x="45" y="24" width="134" height="34" fill="#d4c9b0"/>
     <rect x="179" y="24" width="20" height="256" fill="#d4c9b0"/>
+    <rect x="45" y="265" width="134" height="15" fill="#d4c9b0"/>
 
 
 
@@ -175,19 +176,28 @@
     <circle cx="15" cy="266" r="8" fill="none" stroke="#145214" stroke-width="1" opacity="0.4"/>
 
     <!-- VELD 1 -->
-    <rect x="45" y="44" width="134" height="236" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="2.5"/>
-    <rect x="53" y="52" width="118" height="220" fill="none" stroke="white" stroke-width="1" opacity="0.35"/>
-    <line x1="45" y1="162" x2="179" y2="162" stroke="white" stroke-width="1.5" opacity="0.5"/>
-    <circle cx="112" cy="162" r="30" fill="none" stroke="white" stroke-width="1.5" opacity="0.5"/>
+    <rect x="45" y="58" width="134" height="207" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="2.5"/>
+    <rect x="53" y="66" width="118" height="191" fill="none" stroke="white" stroke-width="1" opacity="0.35"/>
+    <line x1="53" y1="162" x2="171" y2="162" stroke="white" stroke-width="1" opacity="0.5"/>
+    <circle cx="112" cy="162" r="18" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
     <circle cx="112" cy="162" r="2.5" fill="white" opacity="0.7"/>
     <text x="112" y="156" text-anchor="middle" font-size="18" fill="white" font-family="Arial" font-weight="bold">Veld 1</text>
     <text x="112" y="172" text-anchor="middle" font-size="10" fill="white" font-family="Arial" opacity="0.9">(hoofdveld)</text>
+    <!-- Veld 1 strafschopgebieden -->
+    <path d="M 73,66 L 73,99 L 152,99 L 152,66" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <path d="M 94,66 L 94,77 L 130,77 L 130,66" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <circle cx="112" cy="88" r="1.5" fill="white" opacity="0.5"/>
+    <path d="M 97.8,99 A 18,18 0 0,1 126.2,99" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <path d="M 73,257 L 73,224 L 152,224 L 152,257" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <path d="M 94,257 L 94,246 L 130,246 L 130,257" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <circle cx="112" cy="235" r="1.5" fill="white" opacity="0.5"/>
+    <path d="M 97.8,224 A 18,18 0 0,0 126.2,224" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
 
     <!-- VELD 4: x=250 (kleedkamers eindigt x=241, ruime marge) -->
-    <rect x="250" y="120" width="164" height="216" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="2.5"/>
-    <rect x="258" y="128" width="148" height="200" fill="none" stroke="white" stroke-width="1" opacity="0.35"/>
-    <text x="332" y="222" text-anchor="middle" font-size="18" fill="white" font-family="Arial" font-weight="bold">Veld 6</text>
-    <text x="332" y="238" text-anchor="middle" font-size="10" fill="white" font-family="Arial" opacity="0.9">(trainingsveld)</text>
+    <rect x="250" y="120" width="134" height="207" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="2.5"/>
+    <rect x="258" y="128" width="118" height="191" fill="none" stroke="white" stroke-width="1" opacity="0.35"/>
+    <text x="317" y="222" text-anchor="middle" font-size="18" fill="white" font-family="Arial" font-weight="bold">Veld 6</text>
+    <text x="317" y="238" text-anchor="middle" font-size="10" fill="white" font-family="Arial" opacity="0.9">(trainingsveld)</text>
 
     <!-- LEGENDA: zelfde breedte als Veld 4 (x=250, width=170) -->
     
@@ -230,8 +240,8 @@
     <text x="203" y="300" text-anchor="middle" font-size="11" fill="white" font-family="Arial" font-weight="bold">Kleedkamers</text>
     <image href="data:image/png;base64,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" x="167" y="308" width="13" height="13"/>
 
-    <rect x="184" y="328" width="56" height="27" rx="2" fill="#256625" stroke="#80c080" stroke-width="1.5" stroke-dasharray="4,2"/>
-    <text x="212" y="344" text-anchor="middle" font-size="7" fill="white" font-family="Arial" font-weight="bold">Pannakooi</text>
+    <rect x="189" y="330" width="46" height="22" rx="2" fill="#256625" stroke="#80c080" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <text x="212" y="343" text-anchor="middle" font-size="7" fill="white" font-family="Arial" font-weight="bold">Pannakooi</text>
 
     <!-- TRIBUNE en pad links van Veld 1 -->
     <!-- Doorgang links Veld 1: x=5..45 (40px). Pad: x=25..45 (20px). Tribune: x=5..25 (20px). -->
@@ -293,34 +303,56 @@
     <circle cx="13" cy="556" r="7" fill="none" stroke="#145214" stroke-width="1" opacity="0.4"/>
 
     <!-- VELD 4 & 5 -->
-    <rect x="20" y="342" width="148" height="222" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="2.5"/>
-    <line x1="20" y1="453" x2="168" y2="453" stroke="white" stroke-width="2" opacity="0.8"/>
-    <line x1="94" y1="342" x2="94" y2="564" stroke="white" stroke-width="2" opacity="0.8"/>
-    <text x="57" y="404" text-anchor="middle" font-size="11" fill="white" font-family="Arial" font-weight="bold">4B</text>
-    <text x="131" y="404" text-anchor="middle" font-size="11" fill="white" font-family="Arial" font-weight="bold">4A</text>
-    <text x="57" y="514" text-anchor="middle" font-size="11" fill="white" font-family="Arial" font-weight="bold">5B</text>
-    <text x="131" y="514" text-anchor="middle" font-size="11" fill="white" font-family="Arial" font-weight="bold">5A</text>
+    <rect x="27" y="356" width="134" height="207" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="2.5"/>
+    <line x1="27" y1="456" x2="161" y2="456" stroke="white" stroke-width="1" opacity="0.5"/>
+    <line x1="27" y1="464" x2="161" y2="464" stroke="white" stroke-width="1" opacity="0.5"/>
+    <line x1="90" y1="356" x2="90" y2="456" stroke="white" stroke-width="1" opacity="0.5"/>
+    <line x1="90" y1="464" x2="90" y2="563" stroke="white" stroke-width="1" opacity="0.5"/>
+    <line x1="98" y1="356" x2="98" y2="456" stroke="white" stroke-width="1" opacity="0.5"/>
+    <line x1="98" y1="464" x2="98" y2="563" stroke="white" stroke-width="1" opacity="0.5"/>
+    <text x="59" y="414" text-anchor="middle" font-size="11" fill="white" font-family="Arial" font-weight="bold">4B</text>
+    <text x="129" y="414" text-anchor="middle" font-size="11" fill="white" font-family="Arial" font-weight="bold">4A</text>
+    <text x="59" y="517" text-anchor="middle" font-size="11" fill="white" font-family="Arial" font-weight="bold">5B</text>
+    <text x="129" y="517" text-anchor="middle" font-size="11" fill="white" font-family="Arial" font-weight="bold">5A</text>
     <!-- Infobalkjes veld 4 en 5 -->
-    <rect x="20" y="362" width="148" height="16" rx="2" fill="white" opacity="0.88"/>
-    <text x="94" y="373" text-anchor="middle" font-size="7.5" fill="#1a5c1a" font-family="Arial" font-weight="bold">Bij 8x8 is dit veld 4</text>
-    <rect x="20" y="473" width="148" height="16" rx="2" fill="white" opacity="0.88"/>
-    <text x="94" y="484" text-anchor="middle" font-size="7.5" fill="#1a5c1a" font-family="Arial" font-weight="bold">Bij 8x8 is dit veld 5</text>
+    <rect x="27" y="376" width="134" height="16" rx="2" fill="white" opacity="0.88"/>
+    <text x="94" y="387" text-anchor="middle" font-size="7.5" fill="#1a5c1a" font-family="Arial" font-weight="bold">Bij 8x8 is dit veld 4</text>
+    <rect x="27" y="480" width="134" height="16" rx="2" fill="white" opacity="0.88"/>
+    <text x="94" y="491" text-anchor="middle" font-size="7.5" fill="#1a5c1a" font-family="Arial" font-weight="bold">Bij 8x8 is dit veld 5</text>
 
     <!-- VELD 2 -->
-    <rect x="178" y="357" width="236" height="134" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="2.5"/>
-    <rect x="186" y="365" width="220" height="118" fill="none" stroke="white" stroke-width="1" opacity="0.35"/>
-    <line x1="296" y1="357" x2="296" y2="491" stroke="white" stroke-width="1.5" opacity="0.5"/>
-    <circle cx="296" cy="424" r="30" fill="none" stroke="white" stroke-width="1.5" opacity="0.5"/>
-    <circle cx="296" cy="424" r="2.5" fill="white" opacity="0.7"/>
-    <text x="296" y="413" text-anchor="middle" font-size="18" fill="white" font-family="Arial" font-weight="bold">Veld 2</text>
+    <rect x="178" y="357" width="207" height="134" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="2.5"/>
+    <rect x="186" y="365" width="191" height="118" fill="none" stroke="white" stroke-width="1" opacity="0.35"/>
+    <line x1="282" y1="365" x2="282" y2="483" stroke="white" stroke-width="1" opacity="0.5"/>
+    <circle cx="282" cy="424" r="18" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <circle cx="282" cy="424" r="2.5" fill="white" opacity="0.7"/>
+    <text x="282" y="413" text-anchor="middle" font-size="18" fill="white" font-family="Arial" font-weight="bold">Veld 2</text>
+    <!-- Veld 2 strafschopgebieden -->
+    <path d="M 186,385 L 219,385 L 219,464 L 186,464" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <path d="M 186,406 L 197,406 L 197,442 L 186,442" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <circle cx="208" cy="424" r="1.5" fill="white" opacity="0.5"/>
+    <path d="M 219,409.8 A 18,18 0 0,1 219,438.2" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <path d="M 377,385 L 344,385 L 344,464 L 377,464" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <path d="M 377,406 L 366,406 L 366,442 L 377,442" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <circle cx="355" cy="424" r="1.5" fill="white" opacity="0.5"/>
+    <path d="M 344,409.8 A 18,18 0 0,0 344,438.2" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
 
     <!-- VELD 3 -->
-    <rect x="178" y="498" width="236" height="134" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="2.5"/>
-    <rect x="186" y="506" width="220" height="118" fill="none" stroke="white" stroke-width="1" opacity="0.35"/>
-    <line x1="296" y1="498" x2="296" y2="632" stroke="white" stroke-width="1.5" opacity="0.5"/>
-    <circle cx="296" cy="565" r="30" fill="none" stroke="white" stroke-width="1.5" opacity="0.5"/>
-    <circle cx="296" cy="565" r="2.5" fill="white" opacity="0.7"/>
-    <text x="296" y="554" text-anchor="middle" font-size="18" fill="white" font-family="Arial" font-weight="bold">Veld 3</text>
+    <rect x="178" y="498" width="207" height="134" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="2.5"/>
+    <rect x="186" y="506" width="191" height="118" fill="none" stroke="white" stroke-width="1" opacity="0.35"/>
+    <line x1="282" y1="506" x2="282" y2="624" stroke="white" stroke-width="1" opacity="0.5"/>
+    <circle cx="282" cy="565" r="18" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <circle cx="282" cy="565" r="2.5" fill="white" opacity="0.7"/>
+    <text x="282" y="554" text-anchor="middle" font-size="18" fill="white" font-family="Arial" font-weight="bold">Veld 3</text>
+    <!-- Veld 3 strafschopgebieden -->
+    <path d="M 186,526 L 219,526 L 219,605 L 186,605" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <path d="M 186,547 L 197,547 L 197,583 L 186,583" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <circle cx="208" cy="565" r="1.5" fill="white" opacity="0.5"/>
+    <path d="M 219,550.8 A 18,18 0 0,1 219,579.2" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <path d="M 377,526 L 344,526 L 344,605 L 377,605" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <path d="M 377,547 L 366,547 L 366,583 L 377,583" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+    <circle cx="355" cy="565" r="1.5" fill="white" opacity="0.5"/>
+    <path d="M 344,550.8 A 18,18 0 0,0 344,579.2" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
 
 
 
